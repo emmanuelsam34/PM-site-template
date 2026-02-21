@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-24 md:py-32 bg-charcoal relative overflow-hidden z-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* Image Side */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -17,7 +17,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?q=80&w=2070&auto=format&fit=crop"
+                src="/assets/who-we-are.jpg"
                 alt="Executive Project Manager"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
@@ -79,7 +79,7 @@ export default function About() {
               transition={{ delay: 0.4, duration: 0.6 }}
             >
               <a href="#services" className="text-white border-b border-gold pb-1 hover:text-gold transition-colors inline-flex items-center gap-2 group">
-                Discover Our Philosophy 
+                Discover Our Philosophy
                 <span className="transform group-hover:translate-x-1 transition-transform">→</span>
               </a>
             </motion.div>
